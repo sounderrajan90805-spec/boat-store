@@ -4,6 +4,7 @@ import { AnimatePresence } from 'framer-motion'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import PageTransition from './components/PageTransition'
+import ScrollToTop from './components/ScrollToTop'
 import Home from './pages/Home'
 import Products from './pages/Products'
 import ProductDetails from './pages/ProductDetails'
@@ -11,6 +12,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Login from './pages/Login'
 import SignUp from './pages/SignUp'
+import NotFound from './pages/NotFound'
 
 const page = (el) => <PageTransition>{el}</PageTransition>
 
@@ -34,10 +36,12 @@ export default function App() {
             <Route path="/contact" element={page(<Contact />)} />
             <Route path="/login" element={page(<Login />)} />
             <Route path="/signup" element={page(<SignUp />)} />
+            <Route path="*" element={page(<NotFound />)} />
           </Routes>
         </AnimatePresence>
       </main>
       <Footer />
+      <ScrollToTop />
     </div>
   )
 }

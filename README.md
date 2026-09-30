@@ -1,16 +1,58 @@
-# React + Vite
+# boAt Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive consumer electronics store frontend inspired by boAt, built with React and Vite.
 
-Currently, two official plugins are available:
+Live Demo: ADD_YOUR_VERCEL_LINK_HERE
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Pages: Home, Products, Product Details, About Us, Contact Us, Login, Sign Up, 404
+- Form validation on Login and Sign Up
+- Toast notifications for user actions
+- Product search and filtering
+- Hero image slider / carousel
+- Wishlist and Add to Cart (frontend only)
+- Dark / Light mode toggle
+- Responsive navigation menu (mobile, tablet, desktop)
+- Loading skeletons
+- Smooth page transitions, animations and hover effects
+- Scroll-to-top button
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React + Vite
+- React Router
+- Tailwind CSS
+- Framer Motion
+- Context API (Cart, Wishlist, Theme)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+```bash
+git clone ADD_YOUR_REPO_LINK_HERE
+cd boat-store
+npm install
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.
+
+## Build
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```
+src/
+  components/   Navbar, Footer, ProductCard, PageTransition, ScrollToTop
+  context/      CartContext, WishlistContext, ThemeContext
+  data/         products.js
+  pages/        Home, Products, ProductDetails, About, Contact, Login, SignUp, NotFound
+```
+
+## Author
+
+S. Sounderrajan

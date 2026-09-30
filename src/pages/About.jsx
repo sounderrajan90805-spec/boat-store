@@ -118,7 +118,7 @@ export default function About() {
           <img
             src="/images/headphones-1.jpg"
             alt="boAt headphones"
-className="h-80 w-full object-contain p-4 transition-transform duration-500 hover:scale-105"          />
+            className="h-80 w-full object-contain p-4 transition-transform duration-500 hover:scale-105" />
         </motion.div>
       </section>
 
