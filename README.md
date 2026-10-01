@@ -2,7 +2,7 @@
 
 A modern, responsive consumer electronics store frontend inspired by boAt, built with React and Vite.
 
-Live Demo: ADD_YOUR_VERCEL_LINK_HERE
+Live Demo: https://boat-store-eosin.vercel.app
 
 ## Features
 
@@ -29,7 +29,7 @@ Live Demo: ADD_YOUR_VERCEL_LINK_HERE
 ## Getting Started
 
 ```bash
-git clone ADD_YOUR_REPO_LINK_HERE
+git clone https://github.com/sounderrajan90805-spec/boat-store.git
 cd boat-store
 npm install
 npm run dev
